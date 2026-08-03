@@ -1,0 +1,91 @@
+{
+  "subjects": 798,
+  "protocol": "5-fold subject-level OOF; each training fold reserves 20% of subjects for temperature calibration and conditional baseline",
+  "classifier": "standardized YASA features + class-weighted SGD log loss",
+  "folds": [
+    {
+      "fold": 1,
+      "model_subjects": 510,
+      "calibration_subjects": 128,
+      "test_subjects": 160,
+      "test_epochs": 160115,
+      "temperature": 4.999760398832626,
+      "accuracy": 0.6966992474159198,
+      "balanced_accuracy": 0.7246585343913743,
+      "macro_f1": 0.6322838207036933,
+      "uncalibrated_nll": 1.8353647636602637,
+      "calibrated_nll": 1.1995875848628927,
+      "uncalibrated_ece": 0.19488185760146454,
+      "calibrated_ece": 0.1564153551249413
+    },
+    {
+      "fold": 2,
+      "model_subjects": 510,
+      "calibration_subjects": 128,
+      "test_subjects": 160,
+      "test_epochs": 158519,
+      "temperature": 4.999760398832626,
+      "accuracy": 0.6976766192065305,
+      "balanced_accuracy": 0.747488455583887,
+      "macro_f1": 0.6571335044219159,
+      "uncalibrated_nll": 1.773176582923791,
+      "calibrated_nll": 1.1134807493316616,
+      "uncalibrated_ece": 0.19256321927548004,
+      "calibrated_ece": 0.1621437126008127
+    },
+    {
+      "fold": 3,
+      "model_subjects": 510,
+      "calibration_subjects": 128,
+      "test_subjects": 160,
+      "test_epochs": 160569,
+      "temperature": 4.999760398832626,
+      "accuracy": 0.6686097565532575,
+      "balanced_accuracy": 0.7243803411120289,
+      "macro_f1": 0.6091800348411949,
+      "uncalibrated_nll": 2.0923532213099167,
+      "calibrated_nll": 1.2731501866335102,
+      "uncalibrated_ece": 0.22686150029419228,
+      "calibrated_ece": 0.1386948580016733
+    },
+    {
+      "fold": 4,
+      "model_subjects": 511,
+      "calibration_subjects": 128,
+      "test_subjects": 159,
+      "test_epochs": 159398,
+      "temperature": 4.999760398832626,
+      "accuracy": 0.6912759256703346,
+      "balanced_accuracy": 0.7440174300685429,
+      "macro_f1": 0.6283992974997776,
+      "uncalibrated_nll": 1.8380518931270609,
+      "calibrated_nll": 1.2529065576638312,
+      "uncalibrated_ece": 0.18506188444145105,
+      "calibrated_ece": 0.1757462079885408
+    },
+    {
+      "fold": 5,
+      "model_subjects": 511,
+      "calibration_subjects": 128,
+      "test_subjects": 159,
+      "test_epochs": 159286,
+      "temperature": 4.999760398832626,
+      "accuracy": 0.6808256846176061,
+      "balanced_accuracy": 0.7160540164754138,
+      "macro_f1": 0.6210266532839137,
+      "uncalibrated_nll": 1.9075075271367798,
+      "calibrated_nll": 1.4129395974909507,
+      "uncalibrated_ece": 0.19343862589227678,
+      "calibrated_ece": 0.19545009793876958
+    }
+  ],
+  "mean": {
+    "accuracy": 0.6870174466927297,
+    "balanced_accuracy": 0.7313197555262494,
+    "macro_f1": 0.629604662150099,
+    "uncalibrated_nll": 1.8892907976315623,
+    "calibrated_nll": 1.2504129351965694,
+    "uncalibrated_ece": 0.19856141750097295,
+    "calibrated_ece": 0.16569004633094753
+  }
+}

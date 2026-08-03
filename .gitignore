@@ -1,0 +1,50 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+
+# Local datasets and derived subject-level tables
+data/
+results/**/*.csv
+results/**/*.parquet
+results/**/*.npz
+results/**/*.npy
+results/**/*.pkl
+
+# Large archives, model checkpoints and binary experiment artifacts
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.mat
+*.edf
+*.eeg
+*.SIG*
+
+# Third-party repositories and literature files are obtained separately.
+external/
+materials/
+
+# Third-party repositories' history and generated files
+**/.git/
+external/**/checkpoints/
+external/**/pretrained/
+external/**/data/
+external/**/mat_*/
+external/**/sleepedf-20/mat_*/
+
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*

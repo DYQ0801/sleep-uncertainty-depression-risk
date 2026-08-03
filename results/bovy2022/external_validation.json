@@ -1,0 +1,509 @@
+{
+  "source": "Bovy et al., NeuroImage: Clinical 2022, OSF bdez9",
+  "cohort": {
+    "records": 219,
+    "by_dataset_and_label": {
+      "A/label_0": 40,
+      "A/label_1": 40,
+      "B/label_0": 40,
+      "B/label_1": 40,
+      "C/label_0": 28,
+      "C/label_1": 31
+    },
+    "known_cross_dataset_duplicates_removed_from_c": [
+      "B0001465",
+      "C0000913",
+      "C0001233",
+      "C0001238",
+      "C0001251",
+      "D0001049",
+      "D0001406"
+    ]
+  },
+  "diagnosis": [
+    {
+      "held_out_dataset": "A",
+      "features": "confounders",
+      "n": 80,
+      "mdd": 40,
+      "best_c": 0.001,
+      "auroc": 0.5987499999999999,
+      "auroc_ci": [
+        0.4756041029879608,
+        0.7222040495645147
+      ],
+      "auprc": 0.560255936928604,
+      "balanced_accuracy": 0.5625,
+      "brier": 0.2499674630231871
+    },
+    {
+      "held_out_dataset": "A",
+      "features": "macro",
+      "n": 80,
+      "mdd": 40,
+      "best_c": 0.01,
+      "auroc": 0.73,
+      "auroc_ci": [
+        0.6140194235588973,
+        0.8355378361475921
+      ],
+      "auprc": 0.7571045997344895,
+      "balanced_accuracy": 0.6875,
+      "brier": 0.22469916925567684
+    },
+    {
+      "held_out_dataset": "A",
+      "features": "macro_micro",
+      "n": 80,
+      "mdd": 40,
+      "best_c": 0.0031622776601683794,
+      "auroc": 0.7812500000000001,
+      "auroc_ci": [
+        0.6674978687127026,
+        0.8740816922700747
+      ],
+      "auprc": 0.8098657275874954,
+      "balanced_accuracy": 0.6125,
+      "brier": 0.23191768524611253
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "confounders",
+      "n": 80,
+      "mdd": 40,
+      "best_c": 0.1,
+      "auroc": 0.504375,
+      "auroc_ci": [
+        0.37522785395020225,
+        0.6341400971283783
+      ],
+      "auprc": 0.526192296588411,
+      "balanced_accuracy": 0.5,
+      "brier": 0.25170080491975527
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "macro",
+      "n": 80,
+      "mdd": 40,
+      "best_c": 10.0,
+      "auroc": 0.538125,
+      "auroc_ci": [
+        0.40311915658390945,
+        0.6656348208673789
+      ],
+      "auprc": 0.5877744813015234,
+      "balanced_accuracy": 0.6125,
+      "brier": 0.30730760899181003
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "macro_micro",
+      "n": 80,
+      "mdd": 40,
+      "best_c": 1.0,
+      "auroc": 0.52625,
+      "auroc_ci": [
+        0.3934120034410732,
+        0.6530574145763097
+      ],
+      "auprc": 0.5674030667424538,
+      "balanced_accuracy": 0.4625,
+      "brier": 0.3237094791044883
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "confounders",
+      "n": 59,
+      "mdd": 31,
+      "best_c": 0.31622776601683794,
+      "auroc": 0.5011520737327189,
+      "auroc_ci": [
+        0.3344907407407408,
+        0.6511581320514858
+      ],
+      "auprc": 0.5492989337503871,
+      "balanced_accuracy": 0.48329493087557607,
+      "brier": 0.2510789116237314
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "macro",
+      "n": 59,
+      "mdd": 31,
+      "best_c": 0.001,
+      "auroc": 0.814516129032258,
+      "auroc_ci": [
+        0.685450503797278,
+        0.9230769230769231
+      ],
+      "auprc": 0.8820845638170667,
+      "balanced_accuracy": 0.7442396313364055,
+      "brier": 0.24215300424775102
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "macro_micro",
+      "n": 59,
+      "mdd": 31,
+      "best_c": 0.001,
+      "auroc": 0.8052995391705069,
+      "auroc_ci": [
+        0.6770088113191561,
+        0.9173020787262274
+      ],
+      "auprc": 0.8778848265799779,
+      "balanced_accuracy": 0.8029953917050692,
+      "brier": 0.23961665848138652
+    }
+  ],
+  "diagnosis_aggregate": {
+    "confounders": {
+      "pooled_auroc": 0.5159325992659326,
+      "pooled_auroc_ci": [
+        0.44129617522066034,
+        0.592676009342676
+      ],
+      "macro_average_auroc": 0.534759024577573,
+      "worst_dataset_auroc": 0.5011520737327189
+    },
+    "macro": {
+      "pooled_auroc": 0.65331998665332,
+      "pooled_auroc_ci": [
+        0.5718900783453876,
+        0.7232787079932523
+      ],
+      "macro_average_auroc": 0.6942137096774194,
+      "worst_dataset_auroc": 0.538125
+    },
+    "macro_micro": {
+      "pooled_auroc": 0.6141141141141141,
+      "pooled_auroc_ci": [
+        0.5336839593264827,
+        0.6874941397611674
+      ],
+      "macro_average_auroc": 0.7042665130568357,
+      "worst_dataset_auroc": 0.52625
+    }
+  },
+  "diagnosis_paired_deltas": {
+    "macro_minus_confounders": {
+      "estimate": 0.1402877012901543,
+      "ci": [
+        0.04282903263703612,
+        0.2306552601651485
+      ]
+    },
+    "macro_micro_minus_macro": {
+      "estimate": -0.0377364145446677,
+      "ci": [
+        -0.10864903204272376,
+        0.02904548637636853
+      ]
+    }
+  },
+  "dynamics_complete_case_records": 213,
+  "dynamics_diagnosis": [
+    {
+      "held_out_dataset": "A",
+      "features": "confounders_cc",
+      "n": 77,
+      "mdd": 39,
+      "best_c": 0.001,
+      "auroc": 0.5991902834008097,
+      "auroc_ci": [
+        0.4641817987282954,
+        0.7209626529744518
+      ],
+      "auprc": 0.5602393810160508,
+      "balanced_accuracy": 0.5671390013495277,
+      "brier": 0.24995262077896552
+    },
+    {
+      "held_out_dataset": "A",
+      "features": "macro_cc",
+      "n": 77,
+      "mdd": 39,
+      "best_c": 0.001,
+      "auroc": 0.7307692307692308,
+      "auroc_ci": [
+        0.6101351351351352,
+        0.8367240215924425
+      ],
+      "auprc": 0.7680921309960708,
+      "balanced_accuracy": 0.6885964912280702,
+      "brier": 0.24466507048736166
+    },
+    {
+      "held_out_dataset": "A",
+      "features": "macro_dynamics",
+      "n": 77,
+      "mdd": 39,
+      "best_c": 10.0,
+      "auroc": 0.8029689608636976,
+      "auroc_ci": [
+        0.6971513857345051,
+        0.8963620048434527
+      ],
+      "auprc": 0.8509360327905892,
+      "balanced_accuracy": 0.7793522267206479,
+      "brier": 0.17548547262589498
+    },
+    {
+      "held_out_dataset": "A",
+      "features": "macro_dynamics_micro",
+      "n": 77,
+      "mdd": 39,
+      "best_c": 10.0,
+      "auroc": 0.8778677462887989,
+      "auroc_ci": [
+        0.7840701274389805,
+        0.9540570118682293
+      ],
+      "auprc": 0.9138935167721193,
+      "balanced_accuracy": 0.8454790823211875,
+      "brier": 0.13425207390493885
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "confounders_cc",
+      "n": 77,
+      "mdd": 37,
+      "best_c": 0.001,
+      "auroc": 0.49729729729729727,
+      "auroc_ci": [
+        0.3737982121143031,
+        0.632438995082634
+      ],
+      "auprc": 0.5119058315019835,
+      "balanced_accuracy": 0.4905405405405405,
+      "brier": 0.2499459849550343
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "macro_cc",
+      "n": 77,
+      "mdd": 37,
+      "best_c": 10.0,
+      "auroc": 0.5486486486486486,
+      "auroc_ci": [
+        0.4142779469334493,
+        0.6848915362731153
+      ],
+      "auprc": 0.5650654653868625,
+      "balanced_accuracy": 0.5952702702702704,
+      "brier": 0.2975151519192167
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "macro_dynamics",
+      "n": 77,
+      "mdd": 37,
+      "best_c": 3.1622776601683795,
+      "auroc": 0.5547297297297298,
+      "auroc_ci": [
+        0.4263031643045012,
+        0.6801619433198381
+      ],
+      "auprc": 0.5822600604476462,
+      "balanced_accuracy": 0.5682432432432433,
+      "brier": 0.2947129708825702
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "macro_dynamics_micro",
+      "n": 77,
+      "mdd": 37,
+      "best_c": 1.0,
+      "auroc": 0.5472972972972974,
+      "auroc_ci": [
+        0.4197245587424159,
+        0.67081099559068
+      ],
+      "auprc": 0.5793396768621308,
+      "balanced_accuracy": 0.49932432432432433,
+      "brier": 0.3038639105986224
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "confounders_cc",
+      "n": 59,
+      "mdd": 31,
+      "best_c": 0.001,
+      "auroc": 0.5011520737327189,
+      "auroc_ci": [
+        0.3344907407407408,
+        0.6511581320514858
+      ],
+      "auprc": 0.5492989337503871,
+      "balanced_accuracy": 0.48329493087557607,
+      "brier": 0.24996263057176754
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "macro_cc",
+      "n": 59,
+      "mdd": 31,
+      "best_c": 0.001,
+      "auroc": 0.802995391705069,
+      "auroc_ci": [
+        0.6705862022228246,
+        0.9126549671592775
+      ],
+      "auprc": 0.8755006667633444,
+      "balanced_accuracy": 0.7102534562211982,
+      "brier": 0.24240116322176208
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "macro_dynamics",
+      "n": 59,
+      "mdd": 31,
+      "best_c": 10.0,
+      "auroc": 0.8087557603686636,
+      "auroc_ci": [
+        0.6724921630094043,
+        0.9211814568579274
+      ],
+      "auprc": 0.8636616023084334,
+      "balanced_accuracy": 0.7782258064516129,
+      "brier": 0.1674414040711301
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "macro_dynamics_micro",
+      "n": 59,
+      "mdd": 31,
+      "best_c": 10.0,
+      "auroc": 0.8709677419354839,
+      "auroc_ci": [
+        0.7644836288858029,
+        0.9525462962962963
+      ],
+      "auprc": 0.9079951412626015,
+      "balanced_accuracy": 0.7782258064516129,
+      "brier": 0.1491021299185726
+    }
+  ],
+  "dynamics_aggregate": {
+    "confounders_cc": {
+      "pooled_auroc": 0.5240698289543291,
+      "pooled_auroc_ci": [
+        0.4462004406057804,
+        0.6044737093607392
+      ],
+      "macro_average_auroc": 0.532546551476942,
+      "worst_dataset_auroc": 0.49729729729729727
+    },
+    "macro_cc": {
+      "pooled_auroc": 0.6665491095044965,
+      "pooled_auroc_ci": [
+        0.5928969203574523,
+        0.7408386887953878
+      ],
+      "macro_average_auroc": 0.6941377570409828,
+      "worst_dataset_auroc": 0.5486486486486486
+    },
+    "macro_dynamics": {
+      "pooled_auroc": 0.72615059072474,
+      "pooled_auroc_ci": [
+        0.6585400680590995,
+        0.7955497517892768
+      ],
+      "macro_average_auroc": 0.7221514836540304,
+      "worst_dataset_auroc": 0.5547297297297298
+    },
+    "macro_dynamics_micro": {
+      "pooled_auroc": 0.7818726855933698,
+      "pooled_auroc_ci": [
+        0.7207239912793959,
+        0.8409384276817903
+      ],
+      "macro_average_auroc": 0.7653775951738601,
+      "worst_dataset_auroc": 0.5472972972972974
+    }
+  },
+  "dynamics_paired_deltas": {
+    "macro_dynamics_minus_macro": {
+      "estimate": 0.05975748932720485,
+      "ci": [
+        -0.009699367063916128,
+        0.12294299292971854
+      ]
+    },
+    "macro_dynamics_micro_minus_macro_dynamics": {
+      "estimate": 0.055851881435285494,
+      "ci": [
+        0.002915309526738064,
+        0.10961830993080993
+      ]
+    }
+  },
+  "severity": [
+    {
+      "held_out_dataset": "A",
+      "features": "macro",
+      "n": 33,
+      "best_alpha": 1000.0,
+      "mae": 5.566232190696718,
+      "rmse": 7.060258189129705,
+      "r2": -0.6782183442843464,
+      "spearman": -0.021346690531120344
+    },
+    {
+      "held_out_dataset": "A",
+      "features": "macro_micro",
+      "n": 33,
+      "best_alpha": 1000.0,
+      "mae": 5.553040954284441,
+      "rmse": 7.032613356340892,
+      "r2": -0.665101759875877,
+      "spearman": -0.14808216029855925
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "macro",
+      "n": 40,
+      "best_alpha": 1000.0,
+      "mae": 3.6836296086891607,
+      "rmse": 4.452950354440883,
+      "r2": -0.46236584349316856,
+      "spearman": -0.08859893467288874
+    },
+    {
+      "held_out_dataset": "B",
+      "features": "macro_micro",
+      "n": 40,
+      "best_alpha": 1000.0,
+      "mae": 3.6777890536536715,
+      "rmse": 4.457966194451426,
+      "r2": -0.4656621408340529,
+      "spearman": -0.06633125780089541
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "macro",
+      "n": 31,
+      "best_alpha": 1000.0,
+      "mae": 5.468617280576374,
+      "rmse": 6.8529241967087975,
+      "r2": -0.06894907186284427,
+      "spearman": 0.0790460843422416
+    },
+    {
+      "held_out_dataset": "C",
+      "features": "macro_micro",
+      "n": 31,
+      "best_alpha": 1000.0,
+      "mae": 5.483137997538153,
+      "rmse": 6.868281915036853,
+      "r2": -0.07374556850568093,
+      "spearman": 0.12877840339132454
+    }
+  ],
+  "limitations": [
+    "No stage posterior probabilities are public, so entropy is not tested.",
+    "Dataset A patients were medicated; B patients were unmedicated; C patients were medicated for 7 days.",
+    "Hardware and channel references differ across datasets."
+  ]
+}
