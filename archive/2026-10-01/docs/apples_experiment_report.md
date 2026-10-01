@@ -114,10 +114,12 @@ E6 相对 E5 同样下降：
    二分类具有嵌套 CV 和留一中心增量。
 2. 增量没有在 BDI-I、连续 HAMD 或 SGD backbone 上稳定复现。
 3. 条件残差和周期相位是负结果，不支持作为当前主发明点。
+4. 正负10%温度敏感性传播能够在嵌套五折和风险模型层留一中心协议中识别误判率更高
+   的跨阈值样本，可用于生成待复核标志。
 
 因此现阶段可以形成可复现专利实施例，但不足以按“条件残差+周期相位”提交强
-主权利要求。下一步应收缩到“跨中心校准不确定性”或更换条件残差建模方法，并
-完成正式专利查新。
+主权利要求。当前主线已经收缩到“校准敏感性后验生成、风险区间传播和跨阈值复核”，
+正式提交前仍需完成权利要求全文查新。
 
 ## 8. 复现文件
 
@@ -127,8 +129,11 @@ E6 相对 E5 同样下降：
 - `scripts/run_apples_clinical_experiments.py`
 - `scripts/generate_apples_oof_posteriors.py`
 - `scripts/run_apples_posterior_experiments.py`
+- `scripts/run_apples_risk_stability.py`
+- `src/sleepdep/stability.py`
 - `results/apples/clinical/metrics.json`
 - `results/apples/posterior/staging_metrics.json`
 - `results/apples/posterior_ablation/metrics.json`
 - `results/apples/posterior_extratrees/staging_metrics.json`
 - `results/apples/posterior_ablation_extratrees/metrics.json`
+- `results/apples/risk_stability/metrics.json`

@@ -1,0 +1,259 @@
+[
+  {
+    "doi": "10.1109/TCDS.2024.3358022",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1109/JBHI.2023.3303217",
+    "status": "unverified",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "doi": "10.1038/s41591-025-04133-4",
+    "title": [
+      "A multimodal sleep foundation model for disease prediction"
+    ],
+    "authors": [
+      "Rahul Thapa",
+      "Magnus Ruud Kjaer",
+      "Bryan He",
+      "Ian Covert",
+      "Hyatt Moore IV",
+      "Umaer Hanif",
+      "Gauri Ganjoo",
+      "M. Brandon Westover",
+      "Poul Jennum",
+      "Andreas Brink-Kjaer",
+      "Emmanuel Mignot",
+      "James Zou"
+    ],
+    "publication": [
+      "Nature Medicine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1038/s41591-025-04133-4",
+    "type": "journal-article",
+    "abstract": "Abstract\n                  \n                    Sleep is a fundamental biological process with broad implications for physical and mental health, yet its complex relationship with disease remains poorly understood. Polysomnography (PSG)—the gold standard for sleep analysis—captures rich physiological signals but is underutilized due to challenges in standardization, generalizability and multimodal integration. To address these challenges, we developed SleepFM, a multimodal sleep foundation model trained with a new contrastive learning approach that accommodates multiple PSG configurations. Trained on a curated dataset of over 585,000 hours of PSG recordings from approximately 65,000 participants across several cohorts, SleepFM produces latent sleep representations that capture the physiological and temporal structure of sleep and enable accurate prediction of future disease risk. From one night of sleep, SleepFM accurately predicts 130 conditions with a C-Index of at least 0.75 (Bonferroni-corrected\n                    P\n                     &lt; 0.01), including all-cause mortality (C-Index, 0.84), dementia (0.85), myocardial infarction (0.81), heart failure (0.80), chronic kidney disease (0.79), stroke (0.78) and atrial fibrillation (0.78). Moreover, the model demonstrates strong transfer learning performance on a dataset from the Sleep Heart Health Study—a dataset that was excluded from pretraining—and performs competitively with specialized sleep-staging models such as U-Sleep and YASA on common sleep analysis tasks, achieving mean\n                    F\n                    1\n                    scores of 0.70–0.78 for sleep staging and accuracies of 0.69 and 0.87 for classifying sleep apnea severity and presence. This work shows that foundation models can learn the language of sleep from multimodal sleep recordings, enabling scalable, label-efficient analysis and disease prediction.\n                  ",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1101/2024.12.11.24318815",
+    "title": [
+      "A Unified Flexible Large Polysomnography Model for Sleep Staging and Brain Disorder Diagnosis"
+    ],
+    "authors": [
+      "Guifeng Deng",
+      "Mengfan Niu",
+      "Shuying Rao",
+      "Yuxi Luo",
+      "Jianjia Zhang",
+      "Junyi Xie",
+      "Zhenghe Yu",
+      "Wenjuan Liu",
+      "Junhang Zhang",
+      "Sha Zhao",
+      "Gang Pan",
+      "Xiaojing Li",
+      "Wei Deng",
+      "Wanjun Guo",
+      "Yaoyun Zhang",
+      "Tao Li",
+      "Haiteng Jiang"
+    ],
+    "publication": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          11
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1101/2024.12.11.24318815",
+    "type": "posted-content",
+    "abstract": "Abstract\n                \n                  Sleep disorders affect billions worldwide, yet clinical polysomnography (PSG) analysis remains hindered by labor-intensive manual scoring and limited generalizability of automated sleep staging tools across heterogeneous protocols. We present LPSGM, a large-scale PSG model designed to address two critical challenges in sleep medicine: cross-center generalization and adaptable diagnosis of neuropsychiatric disorders. Trained on 220,500 hours of multi-center PSG data (24,000 full-night recordings from 16 public datasets), LPSGM integrates domain-adaptive pre-training, flexible channel configurations, and a unified architecture to mitigate variability in equipment, montages, and populations during sleep staging while enabling downstream fine-tuning for brain disorder detection. In prospective validation, LPSGM achieves expert-level consensus in sleep staging (κ = 0.845 ± 0.066 vs. inter-expert κ = 0.850 ± 0.102) and matches the performance of fully supervised models on two independent private cohorts. When fine-tuned for sleep disorder diagnosis, LPSGM achieved 80.47% accuracy on the large-scale MNC dataset (773 subjects) for a three-class classification (Healthy Control vs. T1 Narcolepsy vs. Other Hypersomnia). The model also demonstrated strong cross-institutional generalizability, with an AUC of 0.8791 on independent cohorts for a binary (Normal vs. Abnormal) classification. While depression screening on smaller datasets showed perfect accuracy in controlled settings, larger-scale validation is necessary. By bridging automated sleep staging with real-world clinical deployment, LPSGM establishes a scalable framework for integrated sleep and brain disorder diagnostics. The code and pre-trained model are publicly available at\n                  https://github.com/Deng-GuiFeng/LPSGM\n                  to advance reproducibility and translational research in sleep medicine.\n                ",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.3389/frsle.2025.1635704",
+    "title": [
+      "Clinical association between current depressive symptoms and odds ratio product in US sleep centers"
+    ],
+    "authors": [
+      "Archie Defillo",
+      "Massimiliano Grassi",
+      "Silvia Daccò",
+      "Jennifer L. Martin",
+      "Veronica Guadagni"
+    ],
+    "publication": [
+      "Frontiers in Sleep"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          12
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.3389/frsle.2025.1635704",
+    "type": "journal-article",
+    "abstract": "IntroductionThe Odds Ratio Product (ORP) is a validated EEG-based measure of sleep depth, more sensitive than traditional metrics. While it has been studied in healthy individuals and those with sleep–wake disorders, its relevance in psychiatric conditions remains unclear. This study examined ORP during sleep and its association with depressive symptoms in a large cohort referred to multiple U.S. sleep centers.MethodsWe retrospectively analyzed data from 829 adults (48.85% female; mean age 43.49 ± 13.74 years) enrolled in two multicenter studies. Each participant completed the Patient Health Questionnaire-9 (PHQ-9) and underwent overnight polysomnography (PSG), with ORP calculated from central EEG channels. Mean and standard deviation ORP values were derived for the full night and Wake, stages 1, 2, 3, and REM sleep. Associations between ORP metrics and depression severity (PHQ-9 total and PHQ-9 ≥10) were tested using linear and logistic regressions, adjusting for age and sex. Model fit was assessed with the Akaike Information Criterion (significance level α = 0.05).ResultsFixed-effects models outperformed mixed-effects models. Mean ORP during the full night and light sleep (stages 1 + 2) showed a significant U-shaped association with depression, indicating both high and low ORP values relate to greater depressive burden. In stage 3, higher mean ORP was linearly associated with more severe symptoms. Lower ORP variability across the night also correlated with higher depression scores.ConclusionsORP shows potential as a non-invasive biomarker for depressive symptoms, with distinct associations depending on sleep depth. Integrating ORP into clinical PSG analyses could improve detection of depression-related sleep patterns.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1093/sleep/zsae270",
+    "title": [
+      "Sleep EEG biomarkers of psychopathology: are we finally making progress?"
+    ],
+    "authors": [
+      "Elizabeth A Klingaman",
+      "Philip R Gehrman"
+    ],
+    "publication": [
+      "SLEEP"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          20
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1093/sleep/zsae270",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.3390/brainsci14121201",
+    "title": [
+      "Comparative Analysis of Single-Channel and Multi-Channel Classification of Sleep Stages Across Four Different Data Sets"
+    ],
+    "authors": [
+      "Xingjian Zhang",
+      "Gewen He",
+      "Tingyu Shang",
+      "Fangfang Fan"
+    ],
+    "publication": [
+      "Brain Sciences"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          28
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.3390/brainsci14121201",
+    "type": "journal-article",
+    "abstract": "Background: Manually labeling sleep stages is time-consuming and labor-intensive, making automatic sleep staging methods crucial for practical sleep monitoring. While both single- and multi-channel data are commonly used in automatic sleep staging, limited research has adequately investigated the differences in their effectiveness. Methods: In this study, four public data sets—Sleep-SC, APPLES, SHHS1, and MrOS1—are utilized, and an advanced hybrid attention neural network composed of a multi-branch convolutional neural network and the multi-head attention mechanism is employed for automatic sleep staging. Results: The experimental results show that, for sleep staging using 2–5 classes, a combination of single-channel electroencephalography (EEG) and dual-channel electrooculography (EOG) consistently outperforms single-channel EEG with single-channel EOG, which in turn outperforms single-channel EEG or single-channel EOG alone. For instance, for five-class sleep staging using the MrOS1 data set, the combination of single-channel EEG and dual-channel EOG resulted in an accuracy of 87.18%, whereas the combination of single-channel EEG and single-channel EOG yielded an accuracy of 85.77%. In comparison, single-channel EEG alone achieved an accuracy of 85.25% and single-channel EOG alone achieved an accuracy of 83.66%. Conclusions: This study highlights the significance of combining EEG and EOG signals in automatic sleep staging, while also providing valuable insights for the channel design of portable sleep monitoring devices.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1038/s41598-024-76197-0",
+    "title": [
+      "FlexSleepTransformer: a transformer-based sleep staging model with flexible input channel configurations"
+    ],
+    "authors": [
+      "Yanchen Guo",
+      "Maciej Nowakowski",
+      "Weiying Dai"
+    ],
+    "publication": [
+      "Scientific Reports"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          1
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1038/s41598-024-76197-0",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.3390/diagnostics15192498",
+    "title": [
+      "Assessing REM Sleep as a Biomarker for Depression Using Consumer Wearables"
+    ],
+    "authors": [
+      "Roland Stretea",
+      "Zaki Milhem",
+      "Vadim Fîntînari",
+      "Cătălina Angela Crișan",
+      "Alexandru Stan",
+      "Dumitru Petreuș",
+      "Ioana Valentina Micluția"
+    ],
+    "publication": [
+      "Diagnostics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.3390/diagnostics15192498",
+    "type": "journal-article",
+    "abstract": "Background: Rapid-eye-movement (REM) sleep disinhibition—shorter REM latency and a larger nightly REM fraction—is a well-described laboratory correlate of major depression. Whether the same pattern can be captured efficiently with consumer wearables in everyday settings remains unclear. We therefore quantified REM latency and proportion of REM sleep out of total sleep duration (labeled “REM sleep coefficient”) from Apple Watch recordings and examined their association with depressive symptoms. Methods: 191 adults wore an Apple Watch for 15 consecutive nights while a custom iOS app streamed raw accelerometry and heart-rate data. Sleep stages were scored with a neural-network model previously validated against polysomnography. REM latency and REM sleep coefficient were averaged per participant. Depressive severity was assessed twice with the Beck Depression Inventory and averaged. Descriptive statistics, normality tests, Spearman correlations, and ordinary-least-squares regressions were performed. Results: Mean ± SD values were BDI 13.52 ± 6.79, REM sleep coefficient 24.05 ± 6.52, and REM latency 103.63 ± 15.44 min. REM latency correlated negatively with BDI (Spearman ρ = −0.673, p &lt; 0.001), whereas REM sleep coefficient correlated positively (ρ = 0.678, p &lt; 0.001). Combined in a bivariate model, the two REM metrics explained 62% of variance in depressive severity. Conclusions: Wearable-derived REM latency and REM proportion jointly capture a large share of depressive-symptom variability, indicating their potential utility as accessible digital biomarkers. Larger longitudinal and interventional studies are needed to determine whether modifying REM architecture can alter the course of depression.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.3390/bioengineering12111251",
+    "title": [
+      "Predicting Major Depressive Disorder Using Neural Networks from Spectral Measures of EEG Data"
+    ],
+    "authors": [
+      "Igor Kozulin",
+      "Ekaterina Merkulova",
+      "Vasiliy Savostyanov",
+      "Haonan Shi",
+      "Xinyi Wang",
+      "Andrey Bocharov",
+      "Alexander Savostyanov"
+    ],
+    "publication": [
+      "Bioengineering"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          16
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.3390/bioengineering12111251",
+    "type": "journal-article",
+    "abstract": "Processing electroencephalogram (EEG) data using neural networks is becoming increasingly important in modern medicine. This study introduces the development of a neural network method using a combination of psychological questionnaire data and spectral characteristics of resting-state EEG. The data were collected from 71 individuals: 42 healthy and 29 with major depressive disorder (MDD). We evaluated four classes of algorithms—traditional machine learning, deep learning (LSTM), ablation analysis, and feature importance analysis—for two primary tasks: binary classification (healthy vs. MDD) and regression for predicting Beck Depression Inventory scores (BDI). Our results demonstrate that the superiority of a given method is task-dependent. For regression, an LSTM network applied to delta-rhythm EEG data achieved a breakthrough performance of R2 = 0.742 (MAE = 6.114), representing an 86% improvement over traditional Ridge regression. Ablation studies identified delta and alpha rhythms as the most informative neurophysiological biomarkers. Furthermore, feature importance analysis revealed a triad of dominant psychometric predictors: ruminative thinking (31.2%), age (27.9%), and hostility (18.5%), which collectively accounted for 75.2% of the feature importance in predicting severity. LSTM on spectral EEG data provides a superior quantitative assessment of depression severity, while Logistic Regression on psychometric or EEG data offers a highly reliable tool for screening and confirmatory diagnosis. This methodology provides a robust, objective framework for MDD diagnosis that is independent of a patient’s subjective self-assessment, thus facilitating enhanced clinical decision-making and personalized treatment monitoring.",
+    "status": "metadata_verified"
+  }
+]

@@ -33,10 +33,6 @@ results/**/*.pkl
 external/
 materials/
 
-# Archived authoring outputs stay local.
-/archive/*/generated/
-/archive/*/presentations/
-
 # Third-party repositories' history and generated files
 **/.git/
 external/**/checkpoints/

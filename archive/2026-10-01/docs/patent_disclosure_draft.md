@@ -5,7 +5,7 @@
 当前状态：**历史草案，原主权利要求暂停提交。**
 
 本文件保留用于记录方案演变和负结果。当前申请底稿见
-`docs/patent_application_revised.md`，证据索引和在先技术审计分别见
+`docs/patent_application_full.md`，证据索引和在先技术审计分别见
 `docs/patent_evidence_index.md`、`docs/patent_prior_art_matrix.md`。
 
 ## 1. 发明名称

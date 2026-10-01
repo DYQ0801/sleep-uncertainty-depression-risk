@@ -1,0 +1,894 @@
+{
+  "date": "2026-10-01",
+  "description": "Document moves, exact duplicate removal, and pre-edit copies. Paths are relative to the project root.",
+  "moves": [
+    {
+      "source": "docs/advisor_progress_report.md",
+      "destination": "archive/2026-10-01/docs/advisor_progress_report.md",
+      "files": [
+        {
+          "path": "docs/advisor_progress_report.md",
+          "bytes": 30700,
+          "sha256": "d11b4d4a15c0ded3bb8162dfe0a7dd6238281981d3ec8bed675a761c81f706ea",
+          "destination": "archive/2026-10-01/docs/advisor_progress_report.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/apples_data_manifest.md",
+      "destination": "archive/2026-10-01/docs/apples_data_manifest.md",
+      "files": [
+        {
+          "path": "docs/apples_data_manifest.md",
+          "bytes": 1626,
+          "sha256": "46943c83c50adbf47dcc9cefede76967a304821c37738d8bf570048049bd3d88",
+          "destination": "archive/2026-10-01/docs/apples_data_manifest.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/apples_experiment_report.md",
+      "destination": "archive/2026-10-01/docs/apples_experiment_report.md",
+      "files": [
+        {
+          "path": "docs/apples_experiment_report.md",
+          "bytes": 4849,
+          "sha256": "560df16c0a87b307c99a8439bd4757443ad4bdaa2a8c7a908b5ccfce16e535cd",
+          "destination": "archive/2026-10-01/docs/apples_experiment_report.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/experiment_report.md",
+      "destination": "archive/2026-10-01/docs/experiment_report.md",
+      "files": [
+        {
+          "path": "docs/experiment_report.md",
+          "bytes": 6969,
+          "sha256": "efc50f23bb82f688ede1502ca1496fbe02279419a31a11777ee9a5661da2e683",
+          "destination": "archive/2026-10-01/docs/experiment_report.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/midterm_defense_report.md",
+      "destination": "archive/2026-10-01/docs/midterm_defense_report.md",
+      "files": [
+        {
+          "path": "docs/midterm_defense_report.md",
+          "bytes": 25357,
+          "sha256": "af9d364a7385b676907285c91fa825b0b5e1cf9d88da7b1ce7f5928ab61a0097",
+          "destination": "archive/2026-10-01/docs/midterm_defense_report.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/patent_application_full.md",
+      "destination": "archive/2026-10-01/docs/patent_application_full.md",
+      "files": [
+        {
+          "path": "docs/patent_application_full.md",
+          "bytes": 31011,
+          "sha256": "325d58a8f60f93ac8c78b099ac13c2cc9f15ffe3454cf391dc062fd93abf3283",
+          "destination": "archive/2026-10-01/docs/patent_application_full.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/patent_application_revised.md",
+      "destination": "archive/2026-10-01/docs/patent_application_revised.md",
+      "files": [
+        {
+          "path": "docs/patent_application_revised.md",
+          "bytes": 15649,
+          "sha256": "d031a60acf4cd7433adfb8028ef0b8540d6182fb001a54e0d7955d03e300c074",
+          "destination": "archive/2026-10-01/docs/patent_application_revised.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/patent_disclosure_draft.md",
+      "destination": "archive/2026-10-01/docs/patent_disclosure_draft.md",
+      "files": [
+        {
+          "path": "docs/patent_disclosure_draft.md",
+          "bytes": 5182,
+          "sha256": "45082d01607496cebe4e0b5d904f20a1ba4f64401d4ae80f59bd08af1f2b49f6",
+          "destination": "archive/2026-10-01/docs/patent_disclosure_draft.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/patent_evidence_index.md",
+      "destination": "archive/2026-10-01/docs/patent_evidence_index.md",
+      "files": [
+        {
+          "path": "docs/patent_evidence_index.md",
+          "bytes": 9612,
+          "sha256": "6a27865f08566c702f1777a48bc3c83adab15f215e306146bda2361b84789d7b",
+          "destination": "archive/2026-10-01/docs/patent_evidence_index.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/patent_prior_art_matrix.md",
+      "destination": "archive/2026-10-01/docs/patent_prior_art_matrix.md",
+      "files": [
+        {
+          "path": "docs/patent_prior_art_matrix.md",
+          "bytes": 9357,
+          "sha256": "45e3a99f9bb681f2aad758474035063336638591ceb48ef318965d054d7191f0",
+          "destination": "archive/2026-10-01/docs/patent_prior_art_matrix.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/patent_truthfulness_audit.md",
+      "destination": "archive/2026-10-01/docs/patent_truthfulness_audit.md",
+      "files": [
+        {
+          "path": "docs/patent_truthfulness_audit.md",
+          "bytes": 10636,
+          "sha256": "22d3975f5c5bd9df73ddb3b17cb5772132e839d3e7dc7eeaee4fa6c773f91bb7",
+          "destination": "archive/2026-10-01/docs/patent_truthfulness_audit.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/research_audit.md",
+      "destination": "archive/2026-10-01/docs/research_audit.md",
+      "files": [
+        {
+          "path": "docs/research_audit.md",
+          "bytes": 8011,
+          "sha256": "de8421eaa3e9872e69f93f7054e578d2420f4a4415b73653d561ec1c9a6461a4",
+          "destination": "archive/2026-10-01/docs/research_audit.md"
+        }
+      ]
+    },
+    {
+      "source": "docs/reference_audit_20260917",
+      "destination": "docs/references",
+      "files": [
+        {
+          "path": "docs/reference_audit_20260917/metadata_earlier.json",
+          "bytes": 16319,
+          "sha256": "f0d05ea921e345af2dd374d459fbb4ab55f6edcd3e8658e9d18a38b9e048eeb2",
+          "destination": "docs/references/metadata_earlier.json"
+        },
+        {
+          "path": "docs/reference_audit_20260917/metadata_methods.json",
+          "bytes": 7992,
+          "sha256": "b86ff4d51f41035c399608415d6571f020578632c87eea58d87abcc71798d93e",
+          "destination": "docs/references/metadata_methods.json"
+        },
+        {
+          "path": "docs/reference_audit_20260917/metadata_other.json",
+          "bytes": 8978,
+          "sha256": "ca0dd64eb1585600a0615bebc3300761770cd206a72c863d8ff3763d0272e412",
+          "destination": "docs/references/metadata_other.json"
+        },
+        {
+          "path": "docs/reference_audit_20260917/交付核对.md",
+          "bytes": 1912,
+          "sha256": "acaf48f49f0ea9b275f9ec0fb356498ec5487fcf70a20a469bef38fab10a5d3f",
+          "destination": "docs/references/交付核对.md"
+        },
+        {
+          "path": "docs/reference_audit_20260917/实验依据与文献清单.md",
+          "bytes": 53104,
+          "sha256": "54f537143f2bb140d0019729673576f4d56f6d8248a76e1ef619acce236cccce",
+          "destination": "docs/references/实验依据与文献清单.md"
+        }
+      ]
+    },
+    {
+      "source": "draft_75c8779b_folder",
+      "destination": "archive/2026-10-01/generated/draft_75c8779b_folder",
+      "files": [
+        {
+          "path": "draft_75c8779b_folder/.presentation-decision.json",
+          "bytes": 492,
+          "sha256": "54032434b18fd98ce1f4716563534f8d8b45c733375e246be336fd4e9dbb834a",
+          "destination": "archive/2026-10-01/generated/draft_75c8779b_folder/.presentation-decision.json"
+        },
+        {
+          "path": "draft_75c8779b_folder/draft.xml",
+          "bytes": 25949,
+          "sha256": "d4c8d2d5c96a741c4be93f6b6d6f7a8d11caeec4d7ffe966c67e6afdebd1be1f",
+          "destination": "archive/2026-10-01/generated/draft_75c8779b_folder/draft.xml"
+        },
+        {
+          "path": "draft_75c8779b_folder/literature_preview.jpg",
+          "bytes": 120141,
+          "sha256": "40b395d17747b4e8a795f916d2183056a66ab451604bc35c634e85ff7eeef188",
+          "destination": "archive/2026-10-01/generated/draft_75c8779b_folder/literature_preview.jpg"
+        },
+        {
+          "path": "draft_75c8779b_folder/pipeline_preview.jpg",
+          "bytes": 163866,
+          "sha256": "43c43e79b62ede1dd308803315a6a5651443cfaab773f2c0e2822977d068e022",
+          "destination": "archive/2026-10-01/generated/draft_75c8779b_folder/pipeline_preview.jpg"
+        },
+        {
+          "path": "draft_75c8779b_folder/result_preview.jpg",
+          "bytes": 112880,
+          "sha256": "49cc5ebb4066176337e90698f4e4ec77e34d176e6f02baba8cad03ecf13040bf",
+          "destination": "archive/2026-10-01/generated/draft_75c8779b_folder/result_preview.jpg"
+        }
+      ]
+    },
+    {
+      "source": "draft_b2971b0b_folder",
+      "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder",
+      "files": [
+        {
+          "path": "draft_b2971b0b_folder/.pipeline.svg.png-FE58",
+          "bytes": 187671,
+          "sha256": "c3c0c3d93f7006436935f094893fb31b402534b38f3218a030c5b851e60b1fa6",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/.pipeline.svg.png-FE58"
+        },
+        {
+          "path": "draft_b2971b0b_folder/.presentation-decision.json",
+          "bytes": 651,
+          "sha256": "4299a7f460ed8d8881e8f63c10fc69e6cb4e91436c55230a9ebb222e569f1bb1",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/.presentation-decision.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/.rejection.svg.png-NmKV",
+          "bytes": 181994,
+          "sha256": "8ae23cb591be959be19a6fa9d3e9d5e2d36015b5d2ae3a5a16dfab3f9fbf21e1",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/.rejection.svg.png-NmKV"
+        },
+        {
+          "path": "draft_b2971b0b_folder/.staging_split.svg.png-hCsc",
+          "bytes": 147911,
+          "sha256": "aa5a868cadde44955b735cb6ddd3d877cd211adf6a1cffe44110f683daa112bf",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/.staging_split.svg.png-hCsc"
+        },
+        {
+          "path": "draft_b2971b0b_folder/.validation.svg.png-KdBk",
+          "bytes": 225622,
+          "sha256": "e1a2082f8784b6848a327e4bc0e61173b16c6912d72fd3953349ace9aaf70c78",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/.validation.svg.png-KdBk"
+        },
+        {
+          "path": "draft_b2971b0b_folder/create_result.json",
+          "bytes": 935,
+          "sha256": "84dfedaeceb02a6bf1e72f9a45b79d4ccb6c921d6c49eb8e990010d9d04dad51",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/create_result.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/evidence.json",
+          "bytes": 23151,
+          "sha256": "6a755d64c64eb06d8449e8770354591623d4dc81717481f7ac9127236820ee33",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/evidence.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/experiment_explained.md",
+          "bytes": 62289,
+          "sha256": "a50abb28d8bbc710cbcbc7665372880527bd87a928ea21d53adfa754e383dc96",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/experiment_explained.md"
+        },
+        {
+          "path": "draft_b2971b0b_folder/online_pipeline.png",
+          "bytes": 203337,
+          "sha256": "8e3aa464ff336ceeb299c58c18e44b110f69bddca59434f58a8f4c8f77d22379",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/online_pipeline.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/online_rejection.png",
+          "bytes": 203230,
+          "sha256": "43748182dca50f5afec1ec3e502ecadb496d5c1291aee53134f1a74ce445a3b9",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/online_rejection.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/online_staging.png",
+          "bytes": 160659,
+          "sha256": "f6c51eaf61024a6c19acc24c1d1ccc2dcd538a8d6b670fd3ee2f7a257b8504d8",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/online_staging.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/online_validation.png",
+          "bytes": 240153,
+          "sha256": "bc58e562b378aa3d0196e2663711dc092a98da049e2cf1be8d74845424044eb3",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/online_validation.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/original_after_publish.json",
+          "bytes": 972,
+          "sha256": "da67cfff11f688374b454412e72c655694fb7a6b41d4d352123c6a5d3a9b01bf",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/original_after_publish.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/original_before_publish.json",
+          "bytes": 972,
+          "sha256": "da67cfff11f688374b454412e72c655694fb7a6b41d4d352123c6a5d3a9b01bf",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/original_before_publish.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/pipeline.svg",
+          "bytes": 6220,
+          "sha256": "42c59c370c24e71bab82f0983c8c4a2d881918e1dc5891315951f6555901ed6d",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/pipeline.svg"
+        },
+        {
+          "path": "draft_b2971b0b_folder/pipeline.svg.png",
+          "bytes": 187671,
+          "sha256": "c3c0c3d93f7006436935f094893fb31b402534b38f3218a030c5b851e60b1fa6",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/pipeline.svg.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/pipeline_preview.png",
+          "bytes": 120863,
+          "sha256": "bf2a270ec53c2d8638bac5f559830d8b9be99e7d3d0ce4b000bd5425c3d6ccd8",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/pipeline_preview.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/published_document.json",
+          "bytes": 108995,
+          "sha256": "41ff6b05b41ca3eea8b913cc1ec403030913d25fcbc271f1c154b3b30b979dc4",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/published_document.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/quality_check.json",
+          "bytes": 7063,
+          "sha256": "e158b1bbd9a177da393de4689c8f2f68ad5151dea5c6a8ff0f3eb652cf670fb5",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/quality_check.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/rejection.svg",
+          "bytes": 6480,
+          "sha256": "04c62b63b96fcd1b08875ea9bcb47c9301958170998038ab7f74845df4fa3ea5",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/rejection.svg"
+        },
+        {
+          "path": "draft_b2971b0b_folder/rejection.svg.png",
+          "bytes": 181994,
+          "sha256": "8ae23cb591be959be19a6fa9d3e9d5e2d36015b5d2ae3a5a16dfab3f9fbf21e1",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/rejection.svg.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/rejection_preview.png",
+          "bytes": 121715,
+          "sha256": "055f3587753d7d48bc4c1989b946f43372cfb4db28821df3e3a47a3c44c1aced",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/rejection_preview.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/.package-lock.json",
+          "bytes": 1573,
+          "sha256": "682fbd7c530fb10ce4e6bbfa5718e08997afa5faa62dc68b627c4447b44e29be",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/.package-lock.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/LICENSE",
+          "bytes": 16724,
+          "sha256": "4b89d4518bd135ab4ee154a7bce722246b57a98c3d7efc1a09409898160c2bd1",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/LICENSE"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/README.md",
+          "bytes": 12590,
+          "sha256": "26e1e747532706012aa7a870a2aa0ab5d427bc82658e7c8dbf496e99a6574361",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/README.md"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/index.d.ts",
+          "bytes": 2719,
+          "sha256": "83875b6b9b3c21945803a77f2ccaf09064099f50f53603d3ae64815ef313e255",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/index.d.ts"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/index.js",
+          "bytes": 612,
+          "sha256": "b670803d88b380b0610edf743d8b74dcc132d9e2aa6aaa04cfaa06b2fcad397d",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/index.js"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/js-binding.d.ts",
+          "bytes": 1549,
+          "sha256": "70cfbbe03a8cb1df607fbe1d0eb5343455ba4dce86f02ed0060d2dba9396f1f2",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/js-binding.d.ts"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/js-binding.js",
+          "bytes": 5509,
+          "sha256": "d5fbe3b7450d1e393ea9856e86e16465d25be8743cae7db03e2f3249aed61e56",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/js-binding.js"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/package.json",
+          "bytes": 4786,
+          "sha256": "2669617af27d91b0dfc0828cc2190ba87b8d8ea6e4cf08619a23784a2f1d8c95",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js/package.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js-darwin-arm64/README.md",
+          "bytes": 100,
+          "sha256": "62b4f597b45bc8c556465b5ae4d350e4f40d7b249ee3601733da62b827facb5c",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js-darwin-arm64/README.md"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js-darwin-arm64/package.json",
+          "bytes": 686,
+          "sha256": "35e4838b3fa981db9f0bc5f1095fbe167e5a605447946a9239f1002862e3ce8e",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js-darwin-arm64/package.json"
+        },
+        {
+          "path": "draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js-darwin-arm64/resvgjs.darwin-arm64.node",
+          "bytes": 3537944,
+          "sha256": "0f5288bc516ad6e30e9df0a660edf44d05ddb528beaf2eba10291ae6822bba78",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/render_tools/node_modules/@resvg/resvg-js-darwin-arm64/resvgjs.darwin-arm64.node"
+        },
+        {
+          "path": "draft_b2971b0b_folder/staging_split.svg",
+          "bytes": 5302,
+          "sha256": "46ca2d22b67f52f8a53b3ffd452a918281acd718ac9d23cf79ddeb9c05110039",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/staging_split.svg"
+        },
+        {
+          "path": "draft_b2971b0b_folder/staging_split.svg.png",
+          "bytes": 147911,
+          "sha256": "aa5a868cadde44955b735cb6ddd3d877cd211adf6a1cffe44110f683daa112bf",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/staging_split.svg.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/staging_split_preview.png",
+          "bytes": 95434,
+          "sha256": "58ae74f3ac0066bd919517e6e0d3e1368527ed3b033797146e191e76b749db6c",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/staging_split_preview.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/validation.svg",
+          "bytes": 6108,
+          "sha256": "1bda746517794adaaec6660842ddc05f012f617921e16f8371c1299cd18503a5",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/validation.svg"
+        },
+        {
+          "path": "draft_b2971b0b_folder/validation.svg.png",
+          "bytes": 225622,
+          "sha256": "e1a2082f8784b6848a327e4bc0e61173b16c6912d72fd3953349ace9aaf70c78",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/validation.svg.png"
+        },
+        {
+          "path": "draft_b2971b0b_folder/validation_preview.png",
+          "bytes": 140727,
+          "sha256": "68989660834a3b077adf8d6f93d0d38895e880ecc60782cd3f14157c16ad9a8b",
+          "destination": "archive/2026-10-01/generated/draft_b2971b0b_folder/validation_preview.png"
+        }
+      ]
+    },
+    {
+      "source": "draft_e0e78f1c_folder",
+      "destination": "archive/2026-10-01/generated/draft_e0e78f1c_folder",
+      "files": [
+        {
+          "path": "draft_e0e78f1c_folder/.presentation-decision.json",
+          "bytes": 832,
+          "sha256": "460e6efa0883d365e357e79694c36f62eccfc0b4d2a0f00760631ca4bc6791e0",
+          "destination": "archive/2026-10-01/generated/draft_e0e78f1c_folder/.presentation-decision.json"
+        }
+      ]
+    },
+    {
+      "source": "midterm_ppt_assets",
+      "destination": "archive/2026-10-01/generated/midterm_ppt_assets",
+      "files": [
+        {
+          "path": "midterm_ppt_assets/bg-closing_16x9.jpg",
+          "bytes": 152447,
+          "sha256": "91380d52f21683e58e42687e5d57ab2860f6674d1ab7bdfd3e3c3a989ecaa2d2",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/bg-closing_16x9.jpg"
+        },
+        {
+          "path": "midterm_ppt_assets/bg-cover_16x9.jpg",
+          "bytes": 129954,
+          "sha256": "1fc57765fd5f8e72e30a18573fefd97610036f0e220ad37a3517b89506c4ebff",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/bg-cover_16x9.jpg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-ablation_1200x675.svg",
+          "bytes": 3232,
+          "sha256": "2d00dabc6634aefdc6384df0bbab0bb6c85f0aad088234b4a27b8797b9d47be4",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-ablation_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-bovy-external_1200x675.svg",
+          "bytes": 3587,
+          "sha256": "e5c5c9bcf3d1fa33ae56b7713d23244e3155dd0e19a4189e20a84b2720befd75",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-bovy-external_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-calibration_1200x675.svg",
+          "bytes": 1476,
+          "sha256": "e0d66d72dda18978b8c710bafdf9169da4d763de11742bf4cba323290a243f35",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-calibration_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-cohort-funnel_1200x675.svg",
+          "bytes": 1797,
+          "sha256": "9dcd0ad7412106c40d2fc8fb8dbfa996efa21597560bc2d1729dec4c73fd21bb",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-cohort-funnel_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-data-quality_1200x675.svg",
+          "bytes": 2472,
+          "sha256": "217e291d42dd9716bcf2ce08ff6e58c32310eeded035f75c920313a1a3c7e75e",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-data-quality_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-delta-ci_1200x675.svg",
+          "bytes": 2124,
+          "sha256": "7a30975a1cc6ae09a1a0a9bde7076f52e07b15d70a68b8d07daba694dad6ebec",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-delta-ci_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-evidence-ladder_1200x675.svg",
+          "bytes": 1325,
+          "sha256": "f72c235ab47b05293b70a50950cd6e172ae8091f796a5c4b30df76320b1a019a",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-evidence-ladder_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-meta-mdd_1200x675.svg",
+          "bytes": 1567,
+          "sha256": "63be66fe10fb2494d42c784a7223a312e0ee4159117f30bb4aac63ef39165897",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-meta-mdd_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-model-selection_1200x675.svg",
+          "bytes": 1612,
+          "sha256": "d30d726306a9d752d1405f9af914292838b44affd77dc77f7a094307b3bb9582",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-model-selection_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/chart-rejection-error_1200x675.svg",
+          "bytes": 1714,
+          "sha256": "ba63338ecbb61ffa7a636ffd516e9ea1d1ef7c85213319ad0a89630abef933a0",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/chart-rejection-error_1200x675.svg"
+        },
+        {
+          "path": "midterm_ppt_assets/image-psg-posterior_4x3.jpg",
+          "bytes": 290154,
+          "sha256": "d349f300f8312bb8b81eece41a18b22fe05badf239fbd2d3ce3f6b0e0c8bdd3e",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/image-psg-posterior_4x3.jpg"
+        },
+        {
+          "path": "midterm_ppt_assets/paper_figures/kushida2006_table3_1900x2150.png",
+          "bytes": 1003166,
+          "sha256": "c6dcdd70658b0d7f2068069eb4fa01bc04da8fa8e364378f374d5bbd8eea77dd",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/paper_figures/kushida2006_table3_1900x2150.png"
+        },
+        {
+          "path": "midterm_ppt_assets/paper_figures/phan2022_entropy_eq_950x1500.png",
+          "bytes": 454647,
+          "sha256": "f3aba4fcbd34aa337ba20f807710e199b4cb27456ae1016ca03eab45e9f9cf7c",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/paper_figures/phan2022_entropy_eq_950x1500.png"
+        },
+        {
+          "path": "midterm_ppt_assets/paper_figures/phan2022_fig5_1800x820.png",
+          "bytes": 706524,
+          "sha256": "e5586268c44adb9b2a5f42d3d1c5b3f5bb8924224872e160a24862c50ac1984e",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/paper_figures/phan2022_fig5_1800x820.png"
+        },
+        {
+          "path": "midterm_ppt_assets/paper_figures/phan2022_fig6_950x650.png",
+          "bytes": 104588,
+          "sha256": "680e40f0bc2bc6492bb8b22999b77867031158d43e5ecdd6ced319d0dfb4ee33",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/paper_figures/phan2022_fig6_950x650.png"
+        },
+        {
+          "path": "midterm_ppt_assets/paper_figures/phan2023_lseq_fig2_1900x1650.png",
+          "bytes": 322713,
+          "sha256": "05f2c9610c029c198832745b0d8c131232c1e289a20f94d2bae7470904ea477c",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/paper_figures/phan2023_lseq_fig2_1900x1650.png"
+        },
+        {
+          "path": "midterm_ppt_assets/paper_figures/steiger2019_fig1_1420x900.png",
+          "bytes": 326995,
+          "sha256": "8f490ff8aa92be11e9495be3ab93c30725cb0a308545d35197027c2bf686d051",
+          "destination": "archive/2026-10-01/generated/midterm_ppt_assets/paper_figures/steiger2019_fig1_1420x900.png"
+        }
+      ]
+    },
+    {
+      "source": "中期答辩_睡眠分期后验与抑郁风险评估.pptx",
+      "destination": "archive/2026-10-01/presentations/中期答辩_睡眠分期后验与抑郁风险评估.pptx",
+      "files": [
+        {
+          "path": "中期答辩_睡眠分期后验与抑郁风险评估.pptx",
+          "bytes": 847609,
+          "sha256": "79c7f24564ca919417d050649b68ff098a54a9b3e5088a6af2a0facfa2b01e2b",
+          "destination": "archive/2026-10-01/presentations/中期答辩_睡眠分期后验与抑郁风险评估.pptx"
+        }
+      ]
+    },
+    {
+      "source": "中期答辩_睡眠分期后验与抑郁风险评估_文献证据版.pptx",
+      "destination": "archive/2026-10-01/presentations/中期答辩_睡眠分期后验与抑郁风险评估_文献证据版.pptx",
+      "files": [
+        {
+          "path": "中期答辩_睡眠分期后验与抑郁风险评估_文献证据版.pptx",
+          "bytes": 3637931,
+          "sha256": "d561836ed8235abe90d03ea3469b4f6e62ccd2b0fc0e13d428106072180ab8ff",
+          "destination": "archive/2026-10-01/presentations/中期答辩_睡眠分期后验与抑郁风险评估_文献证据版.pptx"
+        }
+      ]
+    },
+    {
+      "source": "研究思路及文献参考.zip",
+      "destination": "materials/研究思路及文献参考.zip",
+      "files": [
+        {
+          "path": "研究思路及文献参考.zip",
+          "bytes": 10536619,
+          "sha256": "20bc7b0fae1d8d4e67f8cdec59baa7e9e68b0128911beb92db74f6c283ad2516",
+          "destination": "materials/研究思路及文献参考.zip"
+        }
+      ]
+    }
+  ],
+  "deduplicated": [
+    {
+      "path": "思路/1.L-SeqSleepNet长序列模型.pdf",
+      "bytes": 1163796,
+      "sha256": "b76a9998f150bf0a9677047f7a218305c03783c531d3957d45841673da98ffc4",
+      "retained_path": "materials/思路/1.L-SeqSleepNet长序列模型.pdf"
+    },
+    {
+      "path": "思路/1.文献总结：L-SeqSleepNet优势及模型对比-我的主 backbone 选择依据.pdf",
+      "bytes": 1044171,
+      "sha256": "4907d32e7fbaf60ef0067f37925209cb1cdde6f6496dc694a66c989ef631a181",
+      "retained_path": "materials/思路/1.文献总结：L-SeqSleepNet优势及模型对比-我的主 backbone 选择依据.pdf"
+    },
+    {
+      "path": "思路/10.spindles 与抑郁相关研究.pdf",
+      "bytes": 910858,
+      "sha256": "2273ef7619a41858a2b40682197e9d57bc0914586136122198e4fb1a2e2643c3",
+      "retained_path": "materials/思路/10.spindles 与抑郁相关研究.pdf"
+    },
+    {
+      "path": "思路/2.SleepTransformer.pdf",
+      "bytes": 1696973,
+      "sha256": "e1f080e4f0510402ffdd9d961b81325364a0f6d3612fb9e8ef20c0add7d867c4",
+      "retained_path": "materials/思路/2.SleepTransformer.pdf"
+    },
+    {
+      "path": "思路/2.文献总结SleepTransformer.pdf",
+      "bytes": 709816,
+      "sha256": "ce01e4f79d9d1c76cfd1fee2b68c5098fc9de3aa0999c1be0fa6a9396b8a1c61",
+      "retained_path": "materials/思路/2.文献总结SleepTransformer.pdf"
+    },
+    {
+      "path": "思路/3.SeqSleepNet.pdf",
+      "bytes": 1300693,
+      "sha256": "db774a8598603f3d19c90bc227ebc43b31e18e190c45bca1f52118d5dc583aa9",
+      "retained_path": "materials/思路/3.SeqSleepNet.pdf"
+    },
+    {
+      "path": "思路/4.FlexSleepTransformer.pdf",
+      "bytes": 2637517,
+      "sha256": "2d3ea33caea7783160102b99a8db0ec8d6d7621a934dcf88a5c333563d836229",
+      "retained_path": "materials/思路/4.FlexSleepTransformer.pdf"
+    },
+    {
+      "path": "思路/5.抑郁引起睡眠 EEG 的多维异常（REM、NREM、EEG 脑电变化）.pdf",
+      "bytes": 896142,
+      "sha256": "e16b4d59cb92fb3e14fd97cc374bd316f0214db90920ac20f2467a2987972597",
+      "retained_path": "materials/思路/5.抑郁引起睡眠 EEG 的多维异常（REM、NREM、EEG 脑电变化）.pdf"
+    },
+    {
+      "path": "思路/6.不用端到端的依据.pdf",
+      "bytes": 775160,
+      "sha256": "2e964a91fef1f7d6b1beb4ecf07a0f5f58359a1397420c128aed72eed78695d5",
+      "retained_path": "materials/思路/6.不用端到端的依据.pdf"
+    },
+    {
+      "path": "思路/7.apples数据集.pdf",
+      "bytes": 365501,
+      "sha256": "089e3ac2323e01ab629e5085523acf22b9ee0dc0e47480c30820c6149bd4e30f",
+      "retained_path": "materials/思路/7.apples数据集.pdf"
+    },
+    {
+      "path": "思路/8.睡眠EEG微结构,SWA 调节与抑郁.pdf",
+      "bytes": 121965,
+      "sha256": "89b89f47c2bd3bedf48f997a081676301f0f6127cd12746e3f0b2365df246e74",
+      "retained_path": "materials/思路/8.睡眠EEG微结构,SWA 调节与抑郁.pdf"
+    },
+    {
+      "path": "思路/9.sleep–depression 综述，机制讨论（含 REM latency 相关论述）.pdf",
+      "bytes": 1344107,
+      "sha256": "e9c37cbd907af69518fd237e69403e50e976a9a616e6222d7e47f4bc3a781058",
+      "retained_path": "materials/思路/9.sleep–depression 综述，机制讨论（含 REM latency 相关论述）.pdf"
+    },
+    {
+      "path": "思路/参考文献支持点.docx",
+      "bytes": 120890,
+      "sha256": "f3759605b85670cf70be3d5bfc765c05c67a2028bdee07c35e63282986c56579",
+      "retained_path": "materials/思路/参考文献支持点.docx"
+    }
+  ],
+  "before_edit_copies": [
+    {
+      "path": "README.md",
+      "bytes": 6332,
+      "sha256": "f240a2cbb18715c03380be45fe84657678a3f16df0beda7b6c9cbe106b251ed7",
+      "destination": "archive/2026-10-01/before/README.md"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 753,
+      "sha256": "108d724deec8c8469e4f9e6a29adba2c417f2ef6f63165578bcb90692d79aeb5",
+      "destination": "archive/2026-10-01/before/.gitignore"
+    },
+    {
+      "path": "docs/reference_audit_20260917/实验依据与文献清单.md",
+      "bytes": 53104,
+      "sha256": "54f537143f2bb140d0019729673576f4d56f6d8248a76e1ef619acce236cccce",
+      "destination": "archive/2026-10-01/before/docs/reference_audit_20260917/实验依据与文献清单.md"
+    },
+    {
+      "path": "docs/reference_audit_20260917/交付核对.md",
+      "bytes": 1912,
+      "sha256": "acaf48f49f0ea9b275f9ec0fb356498ec5487fcf70a20a469bef38fab10a5d3f",
+      "destination": "archive/2026-10-01/before/docs/reference_audit_20260917/交付核对.md"
+    }
+  ],
+  "protected_files": [
+    {
+      "path": "src/sleepdep/__init__.py",
+      "bytes": 826,
+      "sha256": "934dbef5c61e3f5f08f817b96df1d4bb43dd90813586c2dccbc0a91ac097a1cd"
+    },
+    {
+      "path": "src/sleepdep/features.py",
+      "bytes": 12038,
+      "sha256": "855997cf80cce2d105c74151c2cc993a2820549e262fd02f388fba3edbc262dc"
+    },
+    {
+      "path": "src/sleepdep/stability.py",
+      "bytes": 7113,
+      "sha256": "0d1908b20cae2e3f9939d79853aadfac1881bfd32dc3de792ecf466714a58ff3"
+    },
+    {
+      "path": "scripts/build_apples_cohort.py",
+      "bytes": 4428,
+      "sha256": "9e868dbe183dbf0616d62acb0986d5a8b320bfb4cf6f5bfebedd60ae10a57a29"
+    },
+    {
+      "path": "scripts/curate_apples_archive.py",
+      "bytes": 6207,
+      "sha256": "18ea1eae8407f6ba625b50c373e3a673bea2046ae42f17ec479765bae1ff0ab8"
+    },
+    {
+      "path": "scripts/download_bovy_hypnograms.py",
+      "bytes": 2538,
+      "sha256": "675f253d97382d3f3d1b3c21f5ad60a16a6b0071d0f203abc5faf007a90075cc"
+    },
+    {
+      "path": "scripts/extract_apples_sequence_features.py",
+      "bytes": 2255,
+      "sha256": "2bd547f8f53d19870df13a82c8c2dc40569221e6c371fef10c5f4d4bfbc5bba3"
+    },
+    {
+      "path": "scripts/extract_sleepedf_features.py",
+      "bytes": 2322,
+      "sha256": "1d9da5eccd66a5338d8f1f89f73126411cec791ede12829459d729980a3c49d2"
+    },
+    {
+      "path": "scripts/generate_apples_oof_posteriors.py",
+      "bytes": 16253,
+      "sha256": "c9edb7ad30cddb37b0c2faec8ce0223595f09de63494890cbeecb2775da0aeb4"
+    },
+    {
+      "path": "scripts/run_apples_baseline.py",
+      "bytes": 5728,
+      "sha256": "0fac948256df7fc7c967d88155ec228a487fe4cde12e42c81774de0fad07c003"
+    },
+    {
+      "path": "scripts/run_apples_clinical_experiments.py",
+      "bytes": 12598,
+      "sha256": "d778949ff6e67444de253ece6533a66001d66a43f6b29aba8d3a80e9ec779746"
+    },
+    {
+      "path": "scripts/run_apples_posterior_experiments.py",
+      "bytes": 7271,
+      "sha256": "acd5c10da4630693edf8c88b416d05fc6160b27111a61a35d32a4471177c6e0d"
+    },
+    {
+      "path": "scripts/run_apples_risk_stability.py",
+      "bytes": 13013,
+      "sha256": "26c63065a18b914cff5296a3a76ecf173de3b5b5d5dd7e72e0ad482801806eb7"
+    },
+    {
+      "path": "scripts/run_bovy_external_validation.py",
+      "bytes": 17692,
+      "sha256": "14d427fbfd879c9663d756907b7db2dcc483ff66b08fc35bd30737d3319ba873"
+    },
+    {
+      "path": "tests/test_bovy_hypnogram.py",
+      "bytes": 459,
+      "sha256": "353bedbdfba3e5be74ce70d91289657ac0eae51670eff2a2e980967ecfb8534c"
+    },
+    {
+      "path": "tests/test_features.py",
+      "bytes": 2118,
+      "sha256": "44e36a5b57046a76b0a5dd7d5d0513fb603a7b698c2b56058b47f37a821173a6"
+    },
+    {
+      "path": "tests/test_stability.py",
+      "bytes": 2364,
+      "sha256": "3439b166f91d450a05d49fcd23975c46440fb15af302de51b2f245acb0da43ea"
+    },
+    {
+      "path": "results/apples/clinical/metrics.json",
+      "bytes": 75333,
+      "sha256": "e25b8145e5c952b684e58bb11c9e47aea3c94dddfdc4e8d0fbe6125581570f64"
+    },
+    {
+      "path": "results/apples/posterior/staging_metrics.json",
+      "bytes": 3029,
+      "sha256": "8e18fc8c737e8e5307e4ba7dca5d9584f9f9d0c1cb63d101a9525855941b3f57"
+    },
+    {
+      "path": "results/apples/posterior_ablation/metrics.json",
+      "bytes": 80987,
+      "sha256": "841683a5993df054dc164f1e03365c3d160dbde72c8e25ed5bf24939f4ed591d"
+    },
+    {
+      "path": "results/apples/posterior_ablation_extratrees/metrics.json",
+      "bytes": 81086,
+      "sha256": "3f8b5712444635aa01ed98904da3d8dbbb9ea128e0ffb718ac1ea5e60452c1eb"
+    },
+    {
+      "path": "results/apples/posterior_extratrees/staging_metrics.json",
+      "bytes": 2990,
+      "sha256": "467bacdf5699b40d26d89c6ff8564534c1b767b868ee5ad26e05d2450ec5e15c"
+    },
+    {
+      "path": "results/apples/risk_stability/metrics.json",
+      "bytes": 34350,
+      "sha256": "e0ff512a34eed5f06bd06bb519f7672e91b672c5d049e753707be3b4f55301a7"
+    },
+    {
+      "path": "results/apples/sequence_features.summary.json",
+      "bytes": 119,
+      "sha256": "aa2a6fb514408f7072a5043d96813a3f511bc61001ede19ff7721c14e1a0f7cd"
+    },
+    {
+      "path": "results/bovy2022/external_validation.json",
+      "bytes": 12595,
+      "sha256": "0e4e3c0e4c1f524addd5f4d4944a4acc366a3a29989b44a4666125579c52b508"
+    },
+    {
+      "path": "results/sleepedf/night_features.summary.json",
+      "bytes": 785,
+      "sha256": "8235f768e410961fc5db15cd0749f4051eb71109dbd5ae1812c1633696c4dde6"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 471,
+      "sha256": "1821e7facacec1d1f099f9de082523bcdbaa70b2ddb7a29f34a840b9d8f8f91f"
+    }
+  ],
+  "result": "moved_and_verified",
+  "summary": {
+    "move_operations": 20,
+    "moved_files": 84,
+    "archived_markdown": 12,
+    "deduplicated_files": 13,
+    "duplicate_bytes_removed": 13087589,
+    "protected_files_verified": 27
+  },
+  "validation": {
+    "local_links_checked": 62,
+    "broken_local_links": 0,
+    "unique_reference_entries": 78,
+    "original_document_files_verified": 99,
+    "protected_files_verified": 27,
+    "restoration_exercised": true,
+    "temporary_restoration_removed": true,
+    "git_diff_check": "passed",
+    "new_model_training": false,
+    "prose_punctuation_issues_after_filename_and_url_exemptions": 0
+  }
+}

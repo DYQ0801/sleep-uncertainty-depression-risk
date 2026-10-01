@@ -1,0 +1,127 @@
+[
+  {
+    "doi": "10.1038/s41746-020-00367-3",
+    "title": [
+      "Second opinion needed: communicating uncertainty in medical machine learning"
+    ],
+    "authors": [
+      "Benjamin Kompa",
+      "Jasper Snoek",
+      "Andrew L. Beam"
+    ],
+    "publication": [
+      "npj Digital Medicine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          5
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1038/s41746-020-00367-3",
+    "type": "journal-article",
+    "abstract": "Abstract\n                  There is great excitement that medical artificial intelligence (AI) based on machine learning (ML) can be used to improve decision making at the patient level in a variety of healthcare settings. However, the quantification and communication of uncertainty for individual predictions is often neglected even though uncertainty estimates could lead to more principled decision-making and enable machine learning models to automatically or semi-automatically abstain on samples for which there is high uncertainty. In this article, we provide an overview of different approaches to uncertainty quantification and abstention for machine learning and highlight how these techniques could improve the safety and reliability of current ML systems being used in healthcare settings. Effective quantification and communication of uncertainty could help to engender trust with healthcare workers, while providing safeguards against known failure modes of current machine learning approaches. As machine learning becomes further integrated into healthcare environments, the ability to say “I’m not sure” or “I don’t know” when uncertain is a necessary capability to enable safe clinical deployment.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1007/s10994-023-06336-7",
+    "title": [
+      "Classifier calibration: a survey on how to assess and improve predicted class probabilities"
+    ],
+    "authors": [
+      "Telmo Silva Filho",
+      "Hao Song",
+      "Miquel Perello-Nieto",
+      "Raul Santos-Rodriguez",
+      "Meelis Kull",
+      "Peter Flach"
+    ],
+    "publication": [
+      "Machine Learning"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          16
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1007/s10994-023-06336-7",
+    "type": "journal-article",
+    "abstract": "Abstract\n                  This paper provides both an introduction to and a detailed overview of the principles and practice of classifier calibration. A well-calibrated classifier correctly quantifies the level of uncertainty or confidence associated with its instance-wise predictions. This is essential for critical applications, optimal decision making, cost-sensitive classification, and for some types of context change. Calibration research has a rich history which predates the birth of machine learning as an academic field by decades. However, a recent increase in the interest on calibration has led to new methods and the extension from binary to the multiclass setting. The space of options and issues to consider is large, and navigating it requires the right set of concepts and tools. We provide both introductory material and up-to-date technical details of the main concepts and methods, including proper scoring rules and other evaluation metrics, visualisation approaches, a comprehensive account of post-hoc calibration methods for binary and multiclass classification, and several advanced topics.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1183/13993003.00348-2017",
+    "title": [
+      "Predictors of sleepiness in obstructive sleep apnoea at baseline and after 6 months of continuous positive airway pressure therapy"
+    ],
+    "authors": [
+      "Rohit Budhiraja",
+      "Clete A. Kushida",
+      "Deborah A. Nichols",
+      "James K. Walsh",
+      "Richard D. Simon",
+      "Daniel J. Gottlieb",
+      "Stuart F. Quan"
+    ],
+    "publication": [
+      "European Respiratory Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          11
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1183/13993003.00348-2017",
+    "type": "journal-article",
+    "abstract": "We evaluated factors associated with subjective and objective sleepiness at baseline and after 6 months of continuous positive airway pressure (CPAP) therapy in patients with obstructive sleep apnoea (OSA).\n                  We analysed data from the Apnoea Positive Pressure Long-term Efficacy Study (APPLES), a prospective 6-month multicentre randomised controlled trial with 1105 subjects with OSA, 558 of who were randomised to active CPAP. Epworth sleepiness scale (ESS) scores and the mean sleep latency (MSL) on the maintenance of wakefulness test at baseline and after 6 months of CPAP therapy were recorded.\n                  \n                    Excessive sleepiness (ESS score &gt;10) was present in 543 (49.1%) participants. Younger age, presence of depression and higher apnoea–hypopnoea index were all associated with higher ESS scores and lower MSL. Randomisation to the CPAP group was associated with lower odds of sleepiness at 6 months. The prevalence of sleepiness was significantly lower in those using CPAP &gt;4 h·night\n                    −1\n                    versus\n                    using CPAP ≤4 h·night\n                    −1\n                    . Among those with good CPAP adherence, those with ESS &gt;10 at baseline had significantly higher odds (OR 8.2, p&lt;0.001) of persistent subjective sleepiness.\n                  \n                  Lower average nightly CPAP use and presence of sleepiness at baseline were independently associated with excessive subjective and objective sleepiness after 6 months of CPAP therapy.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1101/2022.06.03.22275735",
+    "title": [
+      "Increased aperiodic neural activity during sleep in major depressive disorder"
+    ],
+    "authors": [
+      "Yevgenia Rosenblum",
+      "Leonore Bovy",
+      "Frederik D. Weber",
+      "Axel Steiger",
+      "Marcel Zeising",
+      "Martin Dresler"
+    ],
+    "publication": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          5
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1101/2022.06.03.22275735",
+    "type": "posted-content",
+    "abstract": "Abstract\n                \n                  Background\n                  In major depressive disorder (MDD), patients often express subjective sleep complaints while polysomnographic studies report only subtle alterations in neural oscillations. We hypothesize that the study of aperiodic electroencephalographic (EEG) dynamics, a marker of excitation-to-inhibition balance, may bring new insights into our understanding of sleep abnormalities in MDD. Specifically, we investigate aperiodic neural activity during sleep and its relationships with the time of sleep, depression severity, and responsivity to antidepressant treatment.\n                \n                \n                  Methods\n                  Polysomnography was recorded in 38 MDD patients (in unmedicated and 7d medicated states) and 38 age-matched healthy controls (N1=76). Aperiodic EEG activity was evaluated using the Irregularly Resampled Auto-Spectral Analysis with slopes’ means and intra-individual variability as outcome measures. Depression severity was assessed with the Hamilton Depression Rating Scale. We replicated the analysis using two independently collected datasets of medicated patients and controls (N2=60, N3=80).\n                \n                \n                  Results\n                  Unmedicated patients showed flatter aperiodic slopes compared to controls during N2 (p-value=0.002) and steeper slopes compared to their later medicated state (p-values&lt;0.02) during all sleep stages. Within unmedicated patients, slopes were flatter during late compared to early N2 sleep (p-value=0.006). Late N2 slopes further correlated with depression severity after 7d of antidepressant treatment (r=-0.34, p-value=0.04). Variability of slopes was increased in both unmedicated (p-values&lt;0.03) and medicated states (p-values &lt;0.006) of patients’ N2, N3, and REM sleep compared to controls.\n                \n                \n                  Conclusion\n                  Flatter slopes of aperiodic EEG power with increased variability may reflect unstable, noisy neural activity due to increased excitation-to-inhibition balance, representing a new disease-relevant feature of sleep in MDD.\n                ",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.12701/jyms.2024.00668",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1093/sleep/zsae088",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

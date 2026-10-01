@@ -1,6 +1,6 @@
 # 专利申请书真实性审计
 
-审计日期：2026-08-02
+审计日期：2026-09-07
 
 审计对象：`docs/patent_application_full.md`
 
@@ -36,12 +36,20 @@
 | LOSO AUROC 0.6242至0.6589 | 一致 | `leave_one_site_out` |
 | LOSO ΔAUROC及95% CI | 一致 | `loso_paired_deltas.E4_minus_E3` |
 | 配对bootstrap 5000次 | 一致 | `scripts/run_apples_posterior_experiments.py:65-105` |
+| 正负10%嵌套五折跨阈值44人 | 一致 | `risk_stability/metrics.json` |
+| 嵌套五折跨阈值组误判率61.36% | 一致 | 同上 |
+| 嵌套五折稳定组误判率33.02% | 一致 | 同上 |
+| 嵌套五折误判率差值28.34个百分点 | 一致 | 同上 |
+| 正负10%留一中心跨阈值41人 | 一致 | 同上 |
+| 留一中心误判率差值19.31个百分点 | 一致 | 同上 |
 
 核心结果文件：
 
 - `results/apples/posterior_extratrees/staging_metrics.json`
 - `results/apples/posterior_ablation_extratrees/metrics.json`
 - `results/apples/posterior_ablation_extratrees/predictions.csv`
+- `results/apples/risk_stability/metrics.json`
+- `results/apples/risk_stability/predictions.csv`
 
 审计时从`predictions.csv`独立重算AUROC，并按实验脚本相同随机种子重新执行5000次
 配对bootstrap，得到的nested和LOSO AUROC、差值及置信区间与`metrics.json`逐位一致。
@@ -62,6 +70,10 @@
 | 类别加权逻辑回归 | 已实现 | `run_apples_clinical_experiments.py:108-120` |
 | 风险模型四折内层调参、五折外层评估 | 已实现 | 同文件`:123-143,167-208` |
 | 风险模型层留一中心 | 已实现 | 同文件`:211-251` |
+| 从校准后验直接生成温度敏感性后验 | 已实现 | `src/sleepdep/stability.py`中的`temperature_rescale` |
+| 风险区间、宽度和稳定性指数 | 已实现 | 同文件中的`risk_interval_summary` |
+| 跨阈值组和稳定组误判率比较 | 已实现 | `scripts/run_apples_risk_stability.py` |
+| 受试者级bootstrap误判率差值 | 已实现 | `bootstrap_group_error_difference` |
 
 ## 4. 已发现并修正的问题
 
@@ -98,6 +110,19 @@
 但当前实施例只验证YASA脑电时间片段特征上的ExtraTrees和SGD。已将说明书收缩到
 脑电时间片段特征及实际验证的两个分期模型。
 
+### 4.7 风险区间不是统计置信区间
+
+实施例中的正负5%、正负10%和正负15%是预设工程敏感性容差。当前代码没有从校准
+样本估计温度参数的统计置信区间，因此申请书只使用“风险区间”或“校准敏感性区间”，
+不使用“置信区间”描述单名受试者的风险上下界。
+
+### 4.8 拒绝机制不提高全体样本准确率
+
+跨阈值规则把部分样本转为待复核，改变了自动输出覆盖率。它识别出了误判率更高的
+样本组，但不能据此声称全体受试者的AUROC或准确率得到提高。当前实验还显示，以风险
+稳定性指数排序的风险覆盖曲线没有稳定优于简单的风险评分边距，因此主张限定为校准
+敏感性引起的阈值翻转判别。
+
 ## 5. 外部依据核验
 
 ### CN117530689A
@@ -108,7 +133,7 @@
 
 来源：
 
-`https://m.tianyancha.com/zhuanli/f6a2b17e0933585a3037dd93428e1b94`
+`https://patents.google.com/patent/CN117530689A/zh`
 
 ### SleepTransformer
 
@@ -119,6 +144,19 @@ Uncertainty Quantification”，DOI为`10.1109/TBME.2022.3147187`。公开摘要
 来源：
 
 `https://doi.org/10.1109/TBME.2022.3147187`
+
+### 不确定性复核与选择性预测
+
+Bechny等人的研究使用睡眠分期不确定性选择需要人工复核的时间片段；
+InsightSleepNet使用能量分数拒绝低置信度睡眠分期结果；Kompa等人的综述讨论了医疗
+机器学习中的不确定性表达和选择性预测。这些工作说明“不确定时拒绝”本身属于已知
+思想，不能单独作为本申请的创新点。
+
+来源：
+
+- `https://doi.org/10.2147/NSS.S455649`
+- `https://doi.org/10.1186/s12911-024-02437-y`
+- `https://doi.org/10.1038/s41746-020-00367-3`
 
 ### APPLES与睡眠抑郁背景
 
@@ -147,12 +185,13 @@ APPLES可由临床试验登记`NCT00051363`和NSRR综述进行外部核验；NSR
 3. 对外提交时应保留本审计涉及的脚本、JSON、预测表、归档哈希和环境信息。
 4. 在完成端到端严格嵌套验证前，不得把当前LOSO结果称为完整流程的跨中心外部验证。
 5. 申请人和发明人信息必须由所属单位科研或知识产权部门最终确认。
+6. 正负10%只能写为本实施例参数，不得写成普适最优值或统计置信范围。
 
 ## 8. 审计快照哈希
 
 ```text
 申请书：
-b261b27e7a28e5e8fa7533c85a160bb0ab92dbe422ae68552e148c2fbdb3d2c8
+325d58a8f60f93ac8c78b099ac13c2cc9f15ffe3454cf391dc062fd93abf3283
 
 分期指标：
 467bacdf5699b40d26d89c6ff8564534c1b767b868ee5ad26e05d2450ec5e15c
@@ -162,6 +201,12 @@ b261b27e7a28e5e8fa7533c85a160bb0ab92dbe422ae68552e148c2fbdb3d2c8
 
 逐受试者预测：
 7b40021d5ab3d1e54f28cbb8a5d2dcbc27852acb9744bf3072a2b72bee8f1a66
+
+校准敏感性指标：
+e0ff512a34eed5f06bd06bb519f7672e91b672c5d049e753707be3b4f55301a7
+
+校准敏感性逐受试者结果：
+aea6cd6966ff2271cd1061828b178186c7d94ff9ed5663e9f008c00e2dbefb20
 ```
 
 申请书再次修改后，其哈希会改变，应重新生成审计快照。

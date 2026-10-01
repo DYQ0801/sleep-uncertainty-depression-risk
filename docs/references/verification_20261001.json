@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-01",
+  "purpose": "Targeted updates to the prior reference audit; not a systematic review.",
+  "records": [
+    {
+      "reference_id": "A09",
+      "title": "Depression Detection Using an Automatic Sleep Staging Method With an Interpretable Channel-Temporal Attention Mechanism",
+      "doi": "10.1109/TCDS.2024.3358022",
+      "source_url": "https://xplorestaging.ieee.org/document/10415278",
+      "verification_level": "Publisher metadata, abstract and introduction excerpt; full methods and results unavailable.",
+      "confirmed": {
+        "authors": ["Jiahui Pan", "Jie Liu", "Jianhao Zhang", "Xueli Li", "Dongming Quan", "Yuanqing Li"],
+        "journal": "IEEE Transactions on Cognitive and Developmental Systems",
+        "volume": 16,
+        "issue": 4,
+        "pages": "1418-1432",
+        "publication_date": "2024-01-26",
+        "method": "Automatic sleep staging with channel-temporal attention followed by depression-related classification using seven sleep structure features.",
+        "groups": ["unipolar depressive disorder", "bipolar disorder", "healthy subjects"]
+      },
+      "unresolved": ["sample size", "train/test split", "numerical performance", "whether any full-text analysis addresses posterior calibration"]
+    },
+    {
+      "reference_id": "R54",
+      "title": "Multi-cohort Sleep EEG-based Depression Detection Using Multi-modal Data from the National Sleep Research Resource",
+      "doi": "10.1109/ICHI69079.2026.00039",
+      "source_url": "https://xplorestaging.ieee.org/document/11634919",
+      "discovered_via": "https://xplorestaging.ieee.org/document/10415278/citations",
+      "verification_level": "Publisher metadata, abstract and introduction excerpt; full methods and results unavailable.",
+      "confirmed": {
+        "authors": ["Maryamsadat Mohtashamian", "Xiaojin Li", "Laila Rasmy", "Licong Cui"],
+        "venue": "2026 IEEE 14th International Conference on Healthcare Informatics (ICHI)",
+        "conference_dates": "2026-06-01/2026-06-03",
+        "added_to_ieee": "2026-08-12",
+        "cohorts": 3,
+        "subjects": 1288,
+        "positive": 209,
+        "negative": 1079,
+        "eeg_channels": ["C3", "C4"],
+        "additional_inputs": ["demographic variables", "clinical variables"],
+        "feature_selection": "LASSO",
+        "model_families": ["classical machine learning", "deep learning"],
+        "reported_auroc_up_to": 0.688,
+        "reported_auprc_up_to": 0.327,
+        "reported_prevalence_approximately": 0.162
+      },
+      "unresolved": ["names of the three cohorts", "label definition", "exact validation splits", "identity of the best model", "whether AUROC and AUPRC maxima belong to the same model"],
+      "interpretation_limit": "The abstract describes fold-internal feature selection; this is an author-reported protocol, not an independent full-pipeline leakage audit. Metrics are contextual, not a head-to-head comparison with APPLES HAMD>=8."
+    },
+    {
+      "reference_id": "R21",
+      "title": "An open-source, high-performance tool for automated sleep staging",
+      "doi": "10.7554/eLife.70092",
+      "source_url": "https://elifesciences.org/articles/70092",
+      "verification_level": "Publisher article, methods context and validation-results section.",
+      "confirmed": {
+        "training_nights": 3163,
+        "testing_set_1_nights": 585,
+        "testing_set_1_median_per_night_accuracy": 0.8746,
+        "testing_set_2_dod_nights_before_exclusions": 80,
+        "testing_set_2_dod_nights_after_exclusions": 75,
+        "training_cohorts": ["CCSHS", "CFS", "CHAT", "HomePAP", "MESA", "MrOS", "SHHS"],
+        "outputs_include_epoch_stage_probabilities": true
+      },
+      "interpretation_limit": "Median per-night accuracy on different data cannot be ranked directly against the local five-fold mean epoch accuracy. The published training list excludes APPLES; the provenance of any downloaded weight version still needs checking."
+    }
+  ],
+  "local_recalculations": {
+    "source": "data/apples_curated/analysis_cohort.csv",
+    "source_sha256": "a0c019361342a5c9e0f5b6d84c1d6d732022106493ec3263102accd839ec091d",
+    "selection": "has_yasa & over_4h",
+    "target": "diagnosis_hamd",
+    "subjects": 798,
+    "positive": 147,
+    "subjects_with_raw_1ch_in_selected_cohort": 422,
+    "constant_predictor": "For each outer split, predict every test subject using the mean target of the training subjects only.",
+    "nested_outer_split": "StratifiedKFold(n_splits=5, shuffle=True, random_state=20260802)",
+    "nested_train_prevalence_brier": 0.1502811886005719,
+    "loso_outer_split": "Each distinct site is held out; the other sites supply the training prevalence.",
+    "loso_train_prevalence_brier": 0.1532073897617941,
+    "interpretation_limit": "No new model was fitted. Brier compares probability error, not individual discrimination. Existing weighted E4 scores have different calibration properties."
+  },
+  "search_queries": [
+    "\"Depression Detection Using an Automatic Sleep Staging Method\"",
+    "sleep staging posterior entropy uncertainty depression Hamilton calibrated prediction",
+    "\"Multi-cohort Sleep EEG-based Depression Detection\"",
+    "\"10.1109/ICHI69079.2026.00039\""
+  ]
+}

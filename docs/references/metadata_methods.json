@@ -1,0 +1,243 @@
+[
+  {
+    "doi": "10.1016/j.patter.2023.100804",
+    "status": "unverified",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1016/j.neuroimage.2017.06.061",
+    "title": [
+      "Cross-validation failure: Small sample sizes lead to large error bars"
+    ],
+    "authors": [
+      "Gaël Varoquaux"
+    ],
+    "publication": [
+      "NeuroImage"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          10
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1016/j.neuroimage.2017.06.061",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1198/016214506000001437",
+    "title": [
+      "Strictly Proper Scoring Rules, Prediction, and Estimation"
+    ],
+    "authors": [
+      "Tilmann Gneiting",
+      "Adrian E Raftery"
+    ],
+    "publication": [
+      "Journal of the American Statistical Association"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          3
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1198/016214506000001437",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1371/journal.pone.0118432",
+    "title": [
+      "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets"
+    ],
+    "authors": [
+      "Takaya Saito",
+      "Marc Rehmsmeier"
+    ],
+    "publication": [
+      "PLOS ONE"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          4
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1371/journal.pone.0118432",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.2307/2531595",
+    "title": [
+      "Comparing the Areas under Two or More Correlated Receiver Operating Characteristic Curves: A Nonparametric Approach"
+    ],
+    "authors": [
+      "Elizabeth R. DeLong",
+      "David M. DeLong",
+      "Daniel L. Clarke-Pearson"
+    ],
+    "publication": [
+      "Biometrics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1988,
+          9
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.2307/2531595",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+    "title": [
+      "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing"
+    ],
+    "authors": [
+      "Yoav Benjamini",
+      "Yosef Hochberg"
+    ],
+    "publication": [
+      "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          1,
+          1
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x",
+    "type": "journal-article",
+    "abstract": "SUMMARY\n                  The common approach to the multiplicity problem calls for controlling the familywise error rate (FWER). This approach, though, has faults, and we point out a few. A different approach to problems of multiple significance testing is presented. It calls for controlling the expected proportion of falsely rejected hypotheses — the false discovery rate. This error rate is equivalent to the FWER when all hypotheses are true but is smaller otherwise. Therefore, in problems where the control of the false discovery rate rather than that of the FWER is desired, there is potential for a gain in power. A simple sequential Bonferronitype procedure is proved to control the false discovery rate for independent test statistics, and a simulation study shows that the gain in power is substantial. The use of the new procedure and the appropriateness of the criterion are illustrated with examples.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1177/0272989X06295361",
+    "title": [
+      "Decision Curve Analysis: A Novel Method for Evaluating Prediction Models"
+    ],
+    "authors": [
+      "Andrew J. Vickers",
+      "Elena B. Elkin"
+    ],
+    "publication": [
+      "Medical Decision Making"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          11
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1177/0272989x06295361",
+    "type": "journal-article",
+    "abstract": "Background. Diagnostic and prognostic models are typically evaluated with measures of accuracy that do not address clinical consequences. Decision-analytic techniques allow assessment of clinical outcomes but often require collection of additional information and may be cumbersome to apply to models that yield a continuous result. The authors sought a method for evaluating and comparing prediction models that incorporates clinical consequences, requires only the data set on which the models are tested, and can be applied to models that have either continuous or dichotomous results. Method. The authors describe decision curve analysis, a simple, novel method of evaluating predictive models. They start by assuming that the threshold probability of a disease or event at which a patient would opt for treatment is informative of how the patient weighs the relative harms of a false-positive and a false-negative prediction. This theoretical relationship is then used to derive the net benefit of the model across different threshold probabilities. Plotting net benefit against threshold probability yields the “decision curve.” The authors apply the method to models for the prediction of seminal vesicle invasion in prostate cancer patients. Decision curve analysis identified the range of threshold probabilities in which a model was of value, the magnitude of benefit, and which of several models was optimal. Conclusion. Decision curve analysis is a suitable method for evaluating alternative diagnostic and prognostic strategies that has advantages over other commonly used measures and techniques.",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1136/bmj-2024-082505",
+    "title": [
+      "PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods"
+    ],
+    "authors": [
+      "Karel G M Moons",
+      "Johanna A A Damen",
+      "Tabea Kaul",
+      "Lotty Hooft",
+      "Constanza Andaur Navarro",
+      "Paula Dhiman",
+      "Andrew L Beam",
+      "Ben Van Calster",
+      "Leo Anthony Celi",
+      "Spiros Denaxas",
+      "Alastair K Denniston",
+      "Marzyeh Ghassemi",
+      "Georg Heinze",
+      "André Pascal Kengne",
+      "Lena Maier-Hein",
+      "Xiaoxuan Liu",
+      "Patricia Logullo",
+      "Melissa D McCradden",
+      "Nan Liu",
+      "Lauren Oakden-Rayner",
+      "Karandeep Singh",
+      "Daniel S Ting",
+      "Laure Wynants",
+      "Bada Yang",
+      "Johannes B Reitsma",
+      "Richard D Riley",
+      "Gary S Collins",
+      "Maarten van Smeden"
+    ],
+    "publication": [
+      "BMJ"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          24
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1136/bmj-2024-082505",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  },
+  {
+    "doi": "10.1136/bmj-2023-074821",
+    "title": [
+      "Evaluation of clinical prediction models (part 3): calculating the sample size required for an external validation study"
+    ],
+    "authors": [
+      "Richard D Riley",
+      "Kym I E Snell",
+      "Lucinda Archer",
+      "Joie Ensor",
+      "Thomas P A Debray",
+      "Ben van Calster",
+      "Maarten van Smeden",
+      "Gary S Collins"
+    ],
+    "publication": [
+      "BMJ"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          22
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1136/bmj-2023-074821",
+    "type": "journal-article",
+    "abstract": "",
+    "status": "metadata_verified"
+  }
+]
